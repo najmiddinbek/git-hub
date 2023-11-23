@@ -58,7 +58,7 @@ export default function SuperAdmin() {
                         <div className="flex justify-center">
                             <Chart options={chartData.options} series={chartData.series} type="bar" width="1300" />
                         </div>
-                        <Diagramma />
+                        {/* <Diagramma /> */}
                     </div>
                 </div>
             </div >
